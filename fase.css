@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+width: 100%;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20200914/pngtree-blood-drop-halloween-blood-background-black-background-image_398576.jpg');
+}
+body h1{
+    color:lightgray ;
+    margin-bottom: 30px;
+}
+
+section{
+width: 40%;
+height: 50%;
+font-family: Arial, Helvetica, sans-serif;
+background: linear-gradient(black, red);
+border-radius: 15px;
+}
+
+section h2{
+text-align: center;
+color: whitesmoke;
+padding: 5px;
+}
+
+section p{
+margin-top: 10px;
+font-weight:bold;
+text-align:start;
+color: whitesmoke;
+padding: 10px;
+}
+
+section button{
+margin-top: 15px;
+margin-left: 40%;
+cursor: pointer;
+}
+
