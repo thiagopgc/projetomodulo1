@@ -108,6 +108,11 @@ width: 70%;
 margin-top:3px;
 border-radius: 10px;
 font-weight: bold;
+
+}
+
+.personagem1 button a{
+text-decoration: none;
 }
 .personagem1 button:hover{
     font-size: 14px;
