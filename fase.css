@@ -26,6 +26,12 @@ background: linear-gradient(black, red);
 border-radius: 15px;
 }
 
+#altura{
+
+height: 65%;
+
+}
+
 section h2{
 text-align: center;
 color: whitesmoke;
