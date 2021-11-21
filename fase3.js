@@ -1,8 +1,8 @@
 function botaoClicado(){
-    var olhoAguia = prompt("Escolha uma opcao")
-    if(olhoAguia == 1){
+    var resposta = prompt("Escolha uma opcao")
+    if(resposta == 1){
         window.location.href = "./ganhador1.html"
-    }else if(olhoAguia == 2){
+    }else if(resposta == 2){
         window.location.href = "./gameover.html"
     }else{
     alert("opcao invalida")
