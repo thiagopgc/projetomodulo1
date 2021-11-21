@@ -5,6 +5,8 @@ body, html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20200914/pngtree-blood-drop-halloween-blood-background-black-background-image_398576.jpg');
+background-size: cover;
 }
 
 div{
