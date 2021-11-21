@@ -1,8 +1,4 @@
-*{
-box-sizing: border-box;
-padding: 0;
-margin: 0;
-}
+
 
 body{
 
@@ -10,15 +6,16 @@ body{
     justify-content: center;
     align-items: center;
     background-color: black;
+    box-sizing: border-box;
+padding: 0;
+margin: 0;
+width: 100%;
+height: 100vh;
 }
 
 div{
 
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: 40%;
     background-color: white;
-}
-
-div h1{
-    &#x1F3C6;
 }
