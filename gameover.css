@@ -7,13 +7,19 @@ body, html{
     box-sizing: border-box;
     background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20200914/pngtree-blood-drop-halloween-blood-background-black-background-image_398576.jpg');
 background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 div{
     width: 50%;
     height: 50%;
-    background-color: tomato;
+    
 }
 div h1{
 color: whitesmoke;
+text-align: center;
+font-size: 100px;
+text-shadow: 13px 3px 9px red, 0 0 40px #790f0f, 0 0 15px;
 }
