@@ -4,10 +4,10 @@ function botaoClicado(){
     {
         
         resposta = prompt ('digite uma opção')
-        if(resposta == 2){
+        if(resposta == 1){
             window.location.href = "./gameover.html"
             break
-        }else if(resposta == 1){
+        }else if(resposta == 2){
             window.location.href = "./verdadesecreta2.html"
             break
         }else{
