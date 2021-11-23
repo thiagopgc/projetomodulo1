@@ -1,8 +1,222 @@
-@media (max-width: 700px){
+@media (max-width: 600px){
 
-header h1{
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 100vh;
+        }
+        
+        header{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 70px;
+        background: #790F18;
+        padding: auto;
+        }
+        
+        header img{
+        
     display: none;
-}
+            
+        }
+        
+        header h1{
+            text-align: center;
+            margin-left: 33%;
+        }
+        
+        main{
+            
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height:100vh;
+            background-image: url(./background.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        main .historia{
+            width: 40%;
+            height: 40%;
+            background: rgb(255, 81, 0);
+            opacity: 70%; /* opacity tem a função de transparecer a cor. quanto mais perto do 100 mais claro fica. */
+            
+        }
+            
+        .historia p{
+            
+                color: white;
+                text-align: center;
+                padding: 30px ;
+                font-weight: bold;
+                opacity:unset;
+        }
+        
+        main h1{
+        width: 50%;
+        height: 8%;
+        background: blanchedalmond;
+        opacity: 70%;
+        color: #790F18;
+        text-align: center;
+        margin-top: 10px;
+        }
+        
+        .menu-escolha{
+            width:50%;
+            height: 30%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        
+        .personagem1{
+        width: 27%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        
+        }
+        
+        .personagem1 img{
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+        margin-top: 8px;
+        border: 5px solid #790F18;
+        border-radius: 10px;
+        }
+        
+        .personagem1 button{
+        cursor: pointer;
+        width: 70%;
+        margin-top:3px;
+        border-radius: 10px;
+        font-weight: bold;
+        
+        }
+        
+        .personagem1 button a{
+        text-decoration: none;
+        color: inherit;
+        }
+        .personagem1 button:hover{
+            font-size: 14px;
+        }
+        
+            
+        .personagem2{
+            width: 27%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .personagem2 img{
+            width: 80%;
+            height: 80%;
+            object-fit: cover;
+            margin-top: 8px;
+            border: 5px solid #790F18;
+            border-radius: 10px;
+        }
+        
+        .personagem2 button{
+         cursor: pointer;
+         width: 70%;
+         margin-top:3px;
+         border-radius: 10px;
+         font-weight: bold;
+         } 
+        
+         .personagem2 button a{
+        
+            text-decoration: none;
+            color: inherit;
+         }
+        
+         .personagem2 button:hover{
+            font-size: 14px;
+        }   
+            
+         .personagem3{
+            width: 27%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            
+        }
+            
+        .personagem3 img{
+            width: 80%;
+            height: 80%;
+            object-fit: cover;
+            margin-top: 8px;
+            border: 5px solid #790F18;
+            border-radius: 10px;
+        }
+            
+        .personagem3 button{
+            cursor: pointer;
+            width: 70%;
+            margin-top:3px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+        
+        .personagem3 button a{
+        
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        .personagem3 button:hover{
+            font-size: 14px;
+        }
+            
+        
+        footer{
+        width: 100%;
+        height: 150px;
+        background-color:#790F18;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content:space-around;
+        
+        }
+        .logo-pe{
+        width: 140px;
+        height: 30px;
+        }
+        
+        .logo-pe img{
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        cursor: pointer;
+        }
+        .rede-social img{
+            border-radius:px;
+        }
+        
+        .copyright{
+        font-weight: bold;
+        }
+        
 
 
 
