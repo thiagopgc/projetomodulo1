@@ -6,7 +6,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 background-image: url(./background.jpg);
-background-size: 100%;
 opacity: 80%;
 box-sizing: border-box;
 padding: 0;
@@ -18,10 +17,11 @@ height: 100vh;
 
 div{
 
-    width: 26%;
-    height: 50%;
+    width: auto;
+    height: auto;
     background: linear-gradient(black, red);
     border-radius: 5px;
+    padding: 10px;
 }
 div h1 {
 
@@ -31,7 +31,7 @@ div h1 {
 div span{
 
     font-size:50px;
-    margin: 30%;
+    margin: 25%;
     
 }
 
