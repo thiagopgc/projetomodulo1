@@ -280,8 +280,9 @@
             border-radius:px;
         }
         
-        .copyright{
+        p {
         font-weight: bold;
+        text-align: center;
         }
         
 
