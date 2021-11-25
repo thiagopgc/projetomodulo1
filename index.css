@@ -194,7 +194,7 @@ color: inherit;
 
 footer{
 width: 100%;
-height: 150px;
+height: 160px;
 background-color:#790F18;
 display: flex;
 flex-direction: column;
@@ -206,6 +206,7 @@ justify-content:space-around;
 .logo-pe{
 width: 140px;
 height: 30px;
+margin-top: 7px;
 }
 
 .logo-pe img{
